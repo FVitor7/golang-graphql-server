@@ -50,6 +50,10 @@ autobind:
 # modelgen, the others will be allowed when binding to fields. Configure them to
 # your liking
 models:
+  Brand:
+    model: github.com/FVitor7/golang-graphql-server/graph/model.Brand
+  Car:
+    model: github.com/FVitor7/golang-graphql-server/graph/model.Car
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID

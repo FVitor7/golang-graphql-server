@@ -2,18 +2,6 @@
 
 package model
 
-type Brand struct {
-	ID   string `json:"id"`
-	Name string `json:"name"`
-	Cars []*Car `json:"cars"`
-}
-
-type Car struct {
-	ID    string `json:"id"`
-	Name  string `json:"name"`
-	Brand *Brand `json:"brand"`
-}
-
 type NewBrand struct {
 	Name string `json:"name"`
 }
